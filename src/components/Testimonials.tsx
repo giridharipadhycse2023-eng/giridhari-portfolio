@@ -4,22 +4,25 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Chen",
-    role: "Marketing Director, TechFlow",
-    text: "The video work exceeded all expectations. The cinematic quality and attention to detail transformed our brand presence completely. Truly world-class editing.",
+    name: "Gopala Krusna Sahu",
+    role: "Founder, Khelaxy",
+    text: "From thumbnail design to final video delivery, everything was professional and on time. His creativity gives brands a premium identity. Our engagement increased by 3x after his reels.",
   },
   {
-    name: "Marcus Rivera",
-    role: "YouTube Creator, 800K Subs",
-    text: "My channel growth exploded after working together. The editing style, thumbnails, and overall visual identity set my content apart from everyone else in the niche.",
+    name: "Manas Pradhan",
+    role: "Content Creator",
+    text: "Giridhari has an exceptional eye for storytelling. His edits are not just videos — they are emotional experiences",
   },
   {
-    name: "Priya Sharma",
-    role: "Founder, EcoThread",
-    text: "From our brand documentary to social media content — every deliverable was polished, on-brand, and delivered ahead of schedule. A rare find in the creative space.",
-  },
+    name: "Mr. Pitambar Sahu",
+    role: "Digital marketing manager, NIST University",
+text: "This looks amazing.\nGiridhari handled our event highlights, creative videos, cinematography, and podcast edits with outstanding professionalism."  },
+  {
+    name: "PD MEGGHA",
+    role: "VLOGGER, 32.8K followers",
+    text: "Working alongside Giridhari in the MediaMover community has been an incredible experience. His cinematic editing style and creative vision always elevate our content to the next level."
+  }
 ];
-
 const Testimonials = () => {
   const [current, setCurrent] = useState(0);
   const ref = useRef(null);
