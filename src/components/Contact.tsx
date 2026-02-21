@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { Send, Mail, Phone, Instagram, Youtube, Linkedin } from "lucide-react";
+import { Send, Mail, Phone, Instagram, Youtube, Linkedin, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const ref = useRef(null);
@@ -105,6 +105,7 @@ const Contact = () => {
                   { icon: Instagram, href: "https://instagram.com/mr._biki_padhy", label: "Instagram" },
                   { icon: Youtube, href: "https://youtube.com/@HiddenBharatwithBiki", label: "YouTube" },
                   { icon: Linkedin, href: "https://linkedin.com/in/giridhari-padhy", label: "LinkedIn" },
+                  { icon: MessageCircle, href: "https://wa.me/919777590798", label: "WhatsApp" }
                 ].map((social) => (
                   <a
                     key={social.label}

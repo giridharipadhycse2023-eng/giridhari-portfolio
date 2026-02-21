@@ -6,11 +6,11 @@ const Footer = () => {
           GIRIDHARI<span className="text-primary">.</span>
         </p>
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Giridhari Padhy. All rights reserved. Crafted with passion.
+          © {new Date().getFullYear()} Giridhari Padhy. All rights reserved. Crafted with passion ❤️.
         </p>
       </div>
     </footer>
-  );
+  )
 };
 
 export default Footer;

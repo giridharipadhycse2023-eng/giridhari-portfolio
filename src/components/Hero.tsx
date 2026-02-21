@@ -29,7 +29,7 @@ const Hero = () => {
               transition={{ duration: 0.7 }}
               className="text-primary font-medium tracking-[0.3em] uppercase text-sm mb-5"
             >
-              UI/UX Designer & Cinematographer
+              Graphic Designer & UI/UX 
             </motion.p>
 
             <motion.h1
@@ -67,7 +67,7 @@ const Hero = () => {
                 View My Work
               </a>
               <a
-                href="#contact"
+                href="src/assets/GIRIDHARI-PADHY-Resume.pdf"
                 className="flex items-center gap-2 px-8 py-3.5 border border-border/50 text-foreground font-medium rounded-lg hover:border-primary/50 hover:bg-primary/5 transition-all duration-300"
               >
                 Hire Me

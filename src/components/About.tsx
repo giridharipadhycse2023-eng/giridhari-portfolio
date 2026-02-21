@@ -5,8 +5,8 @@ import { Film, Palette, Monitor, Award } from "lucide-react";
 
 const stats = [
   { icon: Film, value: "2+", label: "Years Experience" },
-  { icon: Monitor, value: "50+", label: "Projects Delivered" },
-  { icon: Palette, value: "20+", label: "Happy Clients" },
+  { icon: Monitor, value: "5+", label: "Projects Delivered" },
+  { icon: Palette, value: "4+", label: "Happy Clients" },
   { icon: Award, value: "1", label: "Award Won" },
 ];
 
