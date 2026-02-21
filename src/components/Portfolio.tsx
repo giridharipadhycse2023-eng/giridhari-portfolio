@@ -62,7 +62,7 @@ const projects: Project[] = [
       "Designed engaging thumbnails and channel art for the Hidden Bharat with Biki YouTube channel.",
     tools: ["Photoshop", "Illustrator", "Canva"],
     client: "Hidden Bharat with Biki",
-    image: "/images/hiddenbharat-thumb1.jpg",
+    image: "/images/hiddenbharat-thumb1.jpeg",
     projectLink: "https://www.youtube.com/@HiddenBharatwithBiki",
   },
   {
