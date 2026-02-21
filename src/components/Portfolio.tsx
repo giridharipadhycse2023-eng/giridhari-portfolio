@@ -56,7 +56,7 @@ const projects: Project[] = [
       "https://www.instagram.com/the_mediamovers",
   },
   {
-    title: "Hidden Bharat with Biki — Thumbnail 1",
+    title: "Hidden Bharat with Biki",
     category: "Thumbnails",
     description:
       "Designed engaging thumbnails and channel art for the Hidden Bharat with Biki YouTube channel.",
@@ -91,8 +91,9 @@ const projects: Project[] = [
     description:
       "Full event cinematography and post-production for institutional events.",
     tools: ["DaVinci Resolve", "After Effects", "Adobe Premiere"],
-    client: "NIST University",
-    image: "/images/sankalp-26.jpeg",
+    client: 
+    "NIST University",
+    image: "/images/Sankalp 25-26.jpg",
     projectLink: "https://youtube.com/@nistuniversity",
   },
   {
