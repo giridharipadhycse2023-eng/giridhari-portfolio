@@ -67,7 +67,7 @@ const Hero = () => {
                 View My Work
               </a>
               <a
-                href="src/assets/GIRIDHARI-PADHY-Resume.jpg"
+                href="GIRIDHARI-PADHY-Resume.jpg"
                 className="flex items-center gap-2 px-8 py-3.5 border border-border/50 text-foreground font-medium rounded-lg hover:border-primary/50 hover:bg-primary/5 transition-all duration-300"
               >
                 Hire Me
