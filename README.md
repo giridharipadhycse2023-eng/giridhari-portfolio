@@ -1,74 +1,101 @@
-# Welcome to your Lovable project
+# 🚀 Giridhari Padhy – Professional Portfolio
 
-## Project info
+Welcome to my personal portfolio website repository.  
+This website showcases my work as a **Video Editor, Cinematographer, UI/UX Designer, and Digital Creator**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🌐 **Live Website:**  
+👉 https://your-live-website-link.com  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 👨‍💻 About Me
 
-**Use Lovable**
+Hi, I’m **Giridhari Padhy**, a passionate:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- 🎬 Cinematic Video Editor  
+- 🎥 Cinematographer  
+- 🎙 Podcast Editor  
+- 🎨 UI/UX Designer  
+- 📱 Digital Influencer  
 
-Changes made via Lovable will be committed automatically to this repo.
+I specialize in crafting visually compelling stories through cinematic edits, brand storytelling, and modern web design.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This portfolio is built using:
 
-Follow these steps:
+- ⚡ Vite  
+- ⚛ React  
+- 📘 TypeScript  
+- 🎨 Tailwind CSS  
+- 🧩 shadcn-ui  
+- 🎞 Framer Motion  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📂 Featured Work
 
-# Step 3: Install the necessary dependencies.
-npm i
+- 🎬 Event Highlights & Cinematic Edits  
+- 🎙 Podcast Production & Editing  
+- 🏫 University Media Projects  
+- 📺 Travel Content Creation (HiddenBharatwithBiki)  
+- 🎨 UI/UX Design Projects  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🖥 How to Run Locally
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/giridharipadhycse2023-eng/giridhari-portfolio.git
+
+# Navigate into the folder
+cd giridhari-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Now open your browser and visit:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:8080/
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 Deployment
 
-## What technologies are used for this project?
+This project can be deployed easily on:
 
-This project is built with:
+- Vercel (Recommended)
+- Netlify
+- Any Node-supported hosting platform
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🌍 Connect With Me
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+📩 Email: your-email@example.com  
+📸 Instagram: https://instagram.com/hiddenbharatwithbiki  
+💼 LinkedIn: https://linkedin.com/in/your-profile  
+🎥 YouTube: https://youtube.com/@hiddenbharatwithbiki  
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ⭐ Support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+If you like this project, consider giving it a ⭐ on GitHub.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
-# giridhari-portfolio
+---
+
+## 📌 License
+
+This project is open-source and available under the MIT License.
