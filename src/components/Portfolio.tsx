@@ -66,7 +66,7 @@ const projects: Project[] = [
     projectLink: "https://www.youtube.com/@HiddenBharatwithBiki",
   },
   {
-    title: "Hidden Bharat with Biki — Thumbnail 2",
+    title: "Hidden Bharat with Biki — Thumbnail 1",
     category: "Thumbnails",
     description:
       "Created visually compelling thumbnail with high CTR design strategy.",
@@ -76,7 +76,7 @@ const projects: Project[] = [
     projectLink: "https://youtu.be/UqbET__fwgg",
   },
   {
-    title: "Hidden Bharat with Biki — Thumbnail 3",
+    title: "Hidden Bharat with Biki — Thumbnail 2",
     category: "Thumbnails",
     description:
       "Bold color grading and typography-based YouTube thumbnail design.",
