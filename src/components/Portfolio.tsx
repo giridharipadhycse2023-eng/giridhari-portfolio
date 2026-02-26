@@ -214,6 +214,94 @@ const Portfolio = () => {
           </AnimatePresence>
         </motion.div>
       </div>
+
+      
+      {/* Modal */}
+      <AnimatePresence>
+        {selected && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-background/80 backdrop-blur-sm"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelected(null)}
+          >
+            <motion.div
+              className="glass-card max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="relative">
+                <img
+                  src={selected.image}
+                  alt={selected.title}
+                  className="w-full aspect-video object-cover rounded-t-xl"
+                />
+                <button
+                  onClick={() => setSelected(null)}
+                  className="absolute top-4 right-4 w-10 h-10 rounded-full bg-background/80 flex items-center justify-center"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+
+              <div className="p-6 md:p-8">
+                <p className="text-xs text-primary uppercase mb-2">
+                  {selected.category}
+                </p>
+
+                {/* 🔥 CLICKABLE TITLE */}
+                {selected.projectLink ? (
+                  <a
+                    href={selected.projectLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 font-display text-2xl font-bold text-foreground hover:text-primary transition"
+                  >
+                    {selected.title}
+                    <ExternalLink size={18} />
+                  </a>
+                ) : (
+                  <h3 className="font-display text-2xl font-bold text-foreground">
+                    {selected.title}
+                  </h3>
+                )}
+
+                <p className="text-muted-foreground mt-3 mb-5">
+                  {selected.description}
+                </p>
+
+                {/* Tools */}
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {selected.tools.map((tool) => (
+                    <span
+                      key={tool}
+                      className="px-2 py-1 bg-secondary rounded text-xs"
+                    >
+                      {tool}
+                    </span>
+                  ))}
+                </div>
+
+                {/* 🔥 View Project Button */}
+                {selected.projectLink && (
+                  <a
+                    href={selected.projectLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-5 py-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition"
+                  >
+                    View Project
+                    <ExternalLink size={16} />
+                  </a>
+                )}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 };
