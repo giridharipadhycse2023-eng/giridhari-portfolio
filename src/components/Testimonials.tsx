@@ -25,7 +25,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="py-20 bg-black text-white text-center">
+    <section id="testimonials" className="py-20 bg-black text-white text-center" aria-label="Testimonials">
       <h2 className="text-4xl font-bold mb-10">What Clients Say</h2>
 
       <div className="max-w-3xl mx-auto px-6">
