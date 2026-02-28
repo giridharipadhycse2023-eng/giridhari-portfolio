@@ -57,8 +57,11 @@ const Navbar = () => {
 
         {/* Mobile toggle */}
         <button
+          type="button"
+          aria-controls="mobile-menu"
+          aria-expanded={mobileOpen}
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden text-foreground p-2"
+          className="md:hidden text-foreground p-2 z-50"
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -68,10 +71,11 @@ const Navbar = () => {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
+            id="mobile-menu"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border/30 overflow-hidden"
+            className="md:hidden bg-background/95 backdrop-blur-xl border-b border-border/30 overflow-hidden z-50"
           >
             <div className="flex flex-col gap-4 px-6 py-6">
               {navLinks.map((link) => (
